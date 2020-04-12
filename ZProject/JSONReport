@@ -1,0 +1,171 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-12T13:28:58.201Z",
+        "line": 58,
+        "name": "Saving user\u0027s Billing Address",
+        "description": "",
+        "id": "practiseautomation-testing;saving-user-s-billing-address;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14052000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User on home page1",
+            "match": {
+              "location": "com.stepdefinition.Test_BillingAddress.user_on_home_page1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1756000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User enters to login page",
+            "match": {
+              "location": "com.stepdefinition.Test_BillingAddress.user_enters_to_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3048000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User enters details and clicks login button",
+            "match": {
+              "location": "com.stepdefinition.Test_BillingAddress.user_enters_details_and_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1410000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User clicks on Address",
+            "match": {
+              "location": "com.stepdefinition.Test_BillingAddress.user_clicks_on_Address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2011000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User click on edit option",
+            "match": {
+              "location": "com.stepdefinition.Test_BillingAddress.user_click_on_edit_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2304000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Start entering details \"affu\" \"lucy\" \"webtoon\" \"afreen.md5671@gmail.com\" \"9876543210\" \"chivstrt\" \"railpet\" \"guntur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"affu\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"lucy\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"webtoon\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"afreen.md5671@gmail.com\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"9876543210\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"chivstrt\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"railpet\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"guntur\"",
+                  "offset": 107
+                }
+              ],
+              "location": "com.stepdefinition.Test_BillingAddress.start_entering_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1872000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Click on savechanges",
+            "match": {
+              "location": "com.stepdefinition.Test_BillingAddress.click_on_savechanges()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1367000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User get saving notification",
+            "match": {
+              "location": "com.stepdefinition.Test_BillingAddress.user_get_saving_notification()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@practiseautomation"
+          },
+          {
+            "name": "@TC_03"
+          }
+        ]
+      }
+    ],
+    "name": "Practiseautomation testing",
+    "description": "",
+    "id": "practiseautomation-testing",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/ZProjectfolder/project.feature",
+    "tags": [
+      {
+        "name": "@practiseautomation",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

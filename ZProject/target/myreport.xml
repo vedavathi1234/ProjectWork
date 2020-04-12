@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="28.266">
+<testcase classname="Practiseautomation testing" name="Saving user's Billing Address" time="27.913">
+<system-out><![CDATA[Given User on home page1....................................................passed
+And User enters to login page...............................................passed
+When User enters details and clicks login button............................passed
+And User clicks on Address..................................................passed
+And User click on edit option...............................................passed
+Then Start entering details "affu" "lucy" "webtoon" "afreen.md5671@gmail.com" "9876543210" "chivstrt" "railpet" "guntur".passed
+And Click on savechanges....................................................passed
+Then User get saving notification...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

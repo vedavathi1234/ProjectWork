@@ -1,0 +1,21 @@
+package com.runner;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite.SuiteClasses;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class) //to execute this test case as cucumber test
+@CucumberOptions( //this annotation is used to run your cucumber file with different parameters
+		
+		features = "src/main/resources/ZProjectfolder",
+		tags = {"@TC_01 or @TC_02 or @TC_03 or @TC_04 or @TC_05 or @TC_06 or @TC_07 or @TC_08"},
+		glue= {"com.stepdefinition"},
+		plugin= {"html:reports.html",
+	    		 "json:JSONReport", "junit:target/myreport.xml"}
+		
+		)
+@SuiteClasses({})//its acts as collection of tests
+public class AllTestsRunner {
+
+}
